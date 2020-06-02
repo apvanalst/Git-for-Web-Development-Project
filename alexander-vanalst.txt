@@ -4,42 +4,87 @@ URL: https://codepen.io/alexanderPV/pen/rNxNaXB?editors=1100
 Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
 
     1. What is Semantic HTML? 
+    The use of HTML to add meaning to code
     2. What is HTML used for? 
+    To create pages to be viewed on the internet
     3. What is an attribute and where do we put it? 
+    Attributes are modifiers of elements and added to an HTML start tag
     4. What is the h1 tag used for? How many times should I use it on a page?
+    An H1 tag defines the most important heading and should only be used once
     5. Name two tags that have required attributes
-    6. What do we put in the head of our HTML document? 
+    href and src
+    6. What do we put in the head of our HTML document?
+    The <head> element
     7. What is an id? 
+    id specifies a unique element for CSS or JavaScript
     8. What elements can I add an id to? 
+    Any HTML tag
     9. How many times can I use the same id on a page? 
+    Only once
     10. What is a class? 
+    A class specifies an identifier that will be applied to all that fall under it
     11. What elements can I add a class to? 
+    Any element
     12. How many times can I use the same class on a page? 
+    There is no limit
     13. How do I get my link to open in a new tab?
+    target="_blank"
     14. What is the alt attribute in the image tag used for? 
+    Specifies an alternate text for an image if it cannot be displayed
     15. How do I reference an id?
+    #"id"
     16. What is the difference between a section and a div
+    section is semantic and groups a common theme, div marks a generic block with no meaning
     17. What is CSS used for? 
+    CSS displays the design and style of a website
     18. How to we select an element? Example - every h2 on the page
+    body h1
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    An id selector is used to change one element, whereas class is used to change multiple
     20. How do we select classes in CSS?
+    ."class-name"
     21. How do we select a p element with a single class of “human””?
+    p.human
     22. What is a parent child selector? When would this be useful? 
+    All childs of specific elements are applied the same styles as their parents which creates an ease of use
     23. How do you select all links within a div with the class of sidebar?
+    ."class-name" a:link
     24. What is a pseudo selector?
+    A selector that selects elements in a specific state
     25. What do we use the change the spacing between lines?
+    line-height
     26. What do we use to change the spacing between letters?
+    letter-spacing
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: uppercase; text-transform: lowercase; text-transform: capitalize
     28. How do I add a 1px border around my div that is dotted and black?
+    div {
+        border: 1px dotted black;
+    }
     29. How do I select everything on the page? 
+    *
     30. How do I write a comment in CSS?
+    /* */
     31. How do I find out what file I am in, when I am using the command line? 
+    pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    git -rm, this action cannot be undone
     34. Why should I use version control? 
+    To keep track of changes and have all team members working on the latest version
     35. How often should I commit to github?
+    Every time a significant amount of edits has been made
     36. What is the command we would use to push our repo up to github? 
+    git push -u origin
     37. Walk me through Lambda's git flow. 
+        1. Fork the project from github
+        2. Add TL as collaborator to the project
+        3. Clone the repo to your own computer
+        4. Create your own branch for the repo
+        5. Add and commit your changes to the branch
+        5. Push your changes back up to your github repo
+        6. Submit a pull request
 
 Stretch Questions
 
